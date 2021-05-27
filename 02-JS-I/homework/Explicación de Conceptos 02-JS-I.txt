@@ -1,0 +1,84 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+	
+	***Tengo la suerte de tener una hermana con 13 años y usarla de experimento jeje, por ahora tengo la aprobación y entendimiento de ella.***
+
+	Variables: Las Variables, en programación, son aquellas palabras con las cuales puedo llamar a distintas cosas, sin necesidad de usar el nombre de esas cosas. 
+		Por ejemplo, si quisieramos que venga nuesto perro llamado "Hunter", nosotros tendríamos que decir "Hunter".
+		Pero, podríamos hacer ruido con una bolsa de comida, para que venga "Hunter". En este caso, la bolsa de comida es algo que logra que Hunter venga, sin necesidad de decir Hunter.
+			
+			var bolsaDeComida = "Viene Hunter!";
+
+			bolsaDeComida;
+			"Viene Hunter!"
+
+	Strings: Los Strings son palabras, letras y/o números que se encierran dentro de comillas ("") para que la computadora los entienda como tal, y no importa lo que pase, o lo que haya a su alrededor, siempre aparecerán como fueron escritos. 
+		Por ejemplo, en un texto normal, yo escribo {Hola! ¿Cómo estas?} y cualquier persona que entienda español, va a saber lo que dice. Pero si yo le digo a mi computadora, {Hola! ¿Cómo estás?} mi computadora no va a entender de lo que 
+		estoy hablando, tengo que indicarle que es un texto, de qué forma? Con comillas, Strings.
+		
+		var saludoAComputadora = Hola! ¿Cómo estas?;
+		
+		saludoAComputadora;
+		ERROR ¡¡No entiendo de lo que estas hablando!!
+		
+		Pero si escribo:
+		
+		var saludoAComputadora = "Hola! ¿Cómo estas?";
+		
+		saludoAComputadora; 
+		"Hola! ¿Cómo estas?" 
+
+	Funciones: Las Funciones son grupitos de códigos que sirven para no tener que estar repitiendo cada grupito, sino escribir la función para que automaticamente, me diga los grupitos que hay dentro. Y dentro de las funciones, existen los Argumentos,
+	que funcionarían como características de esa función. 
+		Por ejemplo, vamos a imaginar que la función es una persona. Entonces, esta persona tiene características personles, que son los Argumentos, como pueden ser; Tiene pelo oscuro, Tiene ojos celestes, Es petisa, etc... 
+		Pero también, la persona tiene cosas que la forman como persona; Habilidades, Sentimientos, Pensamientos, etc... Entonces estas cosas son los códigos que componen una función. 
+		
+		function raul(altura, peso) {
+			console.log("Hola! Soy Raúl. Mi altura es de " + altura + " metros. " + "Mi peso es de " + peso + " kilogramos.");
+		}
+		
+		raul(1.9, 80);
+		
+		Esto indicará los siguiente: 
+		"Hola! Soy Raúl. Mi altura es de 1.9 metros. Mi peso es de 80 kilogramos."
+
+		Para no tener que escribir todo de nuevo, directamente traigo a la función llamada raul y le indico una determinada altura y determinado peso.
+
+		raul(1.5, 68);
+
+		Esto indicará los siguiente: 
+		"Hola! Soy Raúl. Mi altura es de 1.5 metros. Mi peso es de 68 kilogramos."
+
+	Return: Dentro de las funciones existe lo que se llmama Return. Este código, te devuelve algo que quieras obtener a partir del grupito de códigos que está dentro de la función.
+		Por ejemplo, si a la función le das dos números y queres que se dividan entre ellos, y además querés que te diga el resultado de la división, tenés que utilizar Return, para que la función devuelva el resultado de esa división.
+
+		function dividirDosNumeros(x, y){
+			var resultado = x / y;
+			return resultado;
+		}
+		
+		dividirDosNumeros(9, 3);
+
+		Esto indicará lo siguiente:
+		"3"
+	
+	if: Este es sencillo de explicar, básicamente indican que si se cumple algo que yo quiera, va a pasar esta otra cosa. 
+		Por ejemplo, si quiero llamar a Hunter, tengo que escribir; Hunter va a venir si yo lo llamo por su nombre, se escribiría así:
+		
+		function hunterViene(sonido) {
+			if(sonido === 1){
+			return "Hunter Viene!"
+			};
+		return "Hunter No Viene!";
+		}
+			
+		Si la persona indica 1, Hunter Viene, si la persona no indica nada, Hunter No Viene. 
+	
+	Booleanos: Con esto se refiere a si algo es verdadero o es falso, indicará algo según corresponda a verdadero o a falso. 
+		Por ejemplo, usando el ejemplo anterior, si sonido es igual a 1, indicará "true" (verdadero) si sonido es igual a 0, indicará "false" (falso).
+		
+		function hunterViene(sonido) {
+			if(sonido === 1){
+			return true
+			};
+		return false;
+		}	
