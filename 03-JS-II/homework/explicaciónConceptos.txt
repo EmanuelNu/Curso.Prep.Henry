@@ -1,0 +1,13 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. 
+   Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	
+	Ciclos/Bucles for: los ciclos for son ciclos que nos permiten crear una serie de códigos automaticamente, sin necesidad de estar introduciendo una y otra vez cada uno de los códigos.
+
+	Operadores lógicos {&&}: los operadores lógicos nos permiten combinar cosas que deben pasar y a partir de eso, indicar que haga algo. ¿Cómo? Si una de ellas es verdadera, si ambas son verdaderas 
+		o si ninguna de esas son verdaderas. 
+		El operador lógico "&&" es como decir la palabra "y", en inglés "and". Esto quiere decir que si tal cosa y esta otra cosa son ciertas, crear esto. Si una es falsa, entones no crea nada. 
+		
+		El operador lógico "||" es como decir la palabra "ó", en inglés "or". Sólo es necesario que una de las cosas sea verdadera para que el código sea creado. 
+		
+		El operador lógico "!" es como decir la palabra "no", en inglés "not". Esto indica lo contrario de lo que está escrito en el código, si dice; "(!true)" entonces indicará "false".
