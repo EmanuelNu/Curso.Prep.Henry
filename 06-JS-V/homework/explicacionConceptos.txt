@@ -1,0 +1,9 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años.
+  Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+    prototype: es una forma de crear métodos en todos los objetos de las clases sin necesidad de acceder a cada objeto uno por uno. Esto dificultaría la identación
+            y aumentaría la probabilidad de error. Entonces se utiliza el .prototype, que permite fácilmente agregar métodos a los objetos.
+
+    Constructors (de clases): estos "Constructores" son plantillas que se utilizan para no crear los objetos uno por uno, sino crearlos a traves de propiedades y
+                              rapidamente.
+                              
